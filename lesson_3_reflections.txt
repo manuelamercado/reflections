@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+When I want to keep my work safe in an cloud and for online collaborating. Also, to modify or create new files online, if I do not have my computer near to me.
