@@ -7,16 +7,24 @@ What value do you think it offers?
 
 The staging area is a space when I can put all, some or one file that is updated comparing with anothers files, and it should be added to the next commit. Then, the file or files in the commit, will be added to the repository like 'tracker files'. In the working directory, the files remained will be here, like 'untracker files' or no commited yet.
 
-- How can you use the staging area to make sure you have one commit per logical
-change?
+- How can you use the staging area to make sure you have one commit per logical change?
 
-- What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+Adding the file or files that I considered make a logical change from the working area that are modified, to then make a commit.
+
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to make some changes like experimental types to investigate a new form of the code that can be better without damaging my original work. Also, I can create a new version of the work for some special cases.
 
 - How do the diagrams help you visualize the branch structure?
 
-- What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+It helps to see how the work is divided in different branches and what branches have some features or not.
 
-- What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+We add another work or feature to the existing one that can improve this. We represent like two chains with the same parent until we delete the label of the branch merged, then all the commits will be reordered by timestamps. Also, the commits conserve their before parent, conserving the form of two 'chains', but not with the git log command.
+
+- What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros of automatic merging are that you do not need to interfere in the process and can be more secured, also you do not need to ask your partner for conflicts in the files. The cons are that not everybody can work in the same file at the same time without commit the changes, because it can generate conflicts in the files to merge. Also, some critical changes can be underestimated by the process, so you have to check if the work is working as expected after the process of the merge.
+
+The pros of manually merging are that the team can work in the same files at the same time, and then can resolve the conflicts in the files if it is needed. The cons are if the changes are a lot, it can relantize the work and can be frustrating to combine all the changes in the files or to accept or drop these.  
