@@ -17,3 +17,7 @@ A branch is a new modified version of my work with a new feature or for experime
 - What is the benefit of having a copy of the last known state of the remote stored locally?
 
 That it can generate less problems in the future to merge the changes in the remote repository using fetch command, with the colaboration online for another team member.
+
+- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I can collaborate copying the files to my local machine, modifying them and then send to my partners to merge all the changes 'manually', so the process would be harder than using Git or GitHub, because everybody have to know what files they changed and how the others changed too.
