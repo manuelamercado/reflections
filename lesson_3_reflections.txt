@@ -21,3 +21,9 @@ That it can generate less problems in the future to merge the changes in the rem
 - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I can collaborate copying the files to my local machine, modifying them and then send to my partners to merge all the changes 'manually', so the process would be harder than using Git or GitHub, because everybody have to know what files they changed and how the others changed too.
+
+- When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I make changes in a separate branch, I can modify the files and experiments with them without the risk of cause damage to the original work, that it not contains strange bugs or crashed. I can create more feature or a new specialized version of the work. If a want those changes in the master branch, I have to merge both, and sometimes it can be complicated if two files have conflicts. In this case, I have to merge manually and in some cases to decide what changes I want in the final version.
+
+When I make the changes directly on master branch, I do not have to merge anything and the process can be more fast and less annoying.
